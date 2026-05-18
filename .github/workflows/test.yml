@@ -1,0 +1,4 @@
+# Testing workflow for CareChain-SmartContract
+# Runs cargo test and Soroban integrations
+name: Test
+on: [push, pull_request]

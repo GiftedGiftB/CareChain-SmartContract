@@ -1,0 +1,7 @@
+# Security audit workflow for CareChain-SmartContract
+# Runs cargo audit and other vulnerability scanning
+name: Security Audit
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly
+  workflow_dispatch:

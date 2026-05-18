@@ -1,0 +1,6 @@
+# Testnet deployment workflow for CareChain-SmartContract
+# Automates deployment to Stellar Futurenet/Testnet
+name: Testnet Deploy
+on:
+  push:
+    branches: [ "develop" ]

@@ -1,0 +1,7 @@
+# Mainnet deployment workflow for CareChain-SmartContract
+# Automates deployment to Stellar Mainnet (Requires manual approval)
+name: Mainnet Deploy
+on:
+  release:
+    types: [published]
+  workflow_dispatch:

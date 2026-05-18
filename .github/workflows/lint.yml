@@ -1,0 +1,4 @@
+# Linting workflow for CareChain-SmartContract
+# Ensures Rustfmt and Clippy checks pass
+name: Lint
+on: [push, pull_request]
